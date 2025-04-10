@@ -1,4 +1,7 @@
-# Age Detection App 🧠👶👴
+# 🧠 Age Detection Web App
+
+This project is a deep learning-based age detection app that predicts the **approximate age group** of a person based on an uploaded face image. Built with **TensorFlow**, **Keras**, and **Streamlit**, it provides a clean UI to test real images using a trained CNN model.
+
 
 A Deep Learning-based Age Prediction App using CNN and Streamlit.
 
@@ -19,9 +22,6 @@ Install with:
 
 bash
 pip install -r requirements.txt
-# 🧠 Age Detection Web App
-
-This project is a deep learning-based age detection app that predicts the **approximate age group** of a person based on an uploaded face image. Built with **TensorFlow**, **Keras**, and **Streamlit**, it provides a clean UI to test real images using a trained CNN model.
 
 ---
 
@@ -45,10 +45,11 @@ Edit
 ---
 
 ## 🚀 How to Run
+'''bash
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/your-username/age-detection-app.git
 cd age-detection-app
 2. Install Requirements
@@ -95,7 +96,7 @@ Install with:
 bash
 Copy
 Edit
-pip install -r requirements.txt
+pip install -r requirements.txt '''
 
 📌 Note
 
