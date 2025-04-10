@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 ## 📋 Resources & Downloads
 - **GitHub Repository:** [Age Detection Repo](https://github.com/shwet369/age-detection-app)
-- **UTKFace Dataset:** [UTKFace on Kaggle](https://www.kaggle.com/datasets)
+- **UTKFace Dataset:** [UTKFace on Kaggle](https://susanqq.github.io/UTKFace/)
 
 ---
 
