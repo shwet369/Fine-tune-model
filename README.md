@@ -58,9 +58,7 @@ This will:
 - **Grad-CAM & Feature Extraction**
 
 ## 📎 Resources & Downloads
-- **Pre-trained Model:** [Google Drive Link](#)
-- **Sample Results:** [Results Folder](#)
-- **GitHub Repository:** [GitHub Link](https://github.com/shwet369/Fine-tune-model/edit/)
+- **GitHub Repository:** [GitHub Link](https://github.com/shwet369/Fine-tune-model/tree/https/github.com/shwet369/-_Data-science)
 
 ## 📜 License
 This project is licensed under the **MIT License**.
