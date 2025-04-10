@@ -1,123 +1,124 @@
 # 🧠 Age Detection Web App
 
-This project is a deep learning-based age detection app that predicts the **approximate age group** of a person based on an uploaded face image. Built with **TensorFlow**, **Keras**, and **Streamlit**, it provides a clean UI to test real images using a trained CNN model.
-
-
-A Deep Learning-based Age Prediction App using CNN and Streamlit.
-
-## 🚀 Features
-- Upload any human face image
-- Predicts the person’s **age** (classification or regression)
-- Simple UI built with Streamlit
-
-## 🧠 Model
-- Input shape: (100, 100, 3)
-- CNN Architecture (Conv2D + MaxPooling2D + Dense)
-- Trained on UTKFace dataset
-- Accuracy: ~87% on validation data
-
-## 📦 Dependencies
-
-Install with:
-
-bash
-pip install -r requirements.txt
+A Deep Learning-based Age Prediction App using CNN and Streamlit that classifies a person’s age group from a face image. It features a clean interface and a responsive model trained on the UTKFace dataset.
 
 ---
 
-## 📸 Demo
+## 🚀 Features
+- 📸 Upload any image of a human face
+- ⚖️ Predicts approximate **age class** (0 - 70+)
+- 🔧 Built-in preprocessing and normalization
+- 📈 CNN model with ~87% validation accuracy
+- 🌐 Interactive **Streamlit** Web UI
 
-> Upload a face image, and the model will output a predicted age class and age range.
+---
 
-![demo](![app - Google Chrome 10-04-2025 11_51_42](https://github.com/user-attachments/assets/f6c71be8-aa88-4791-956e-38b491e13be0)
-)
+## 🧠 Model Overview
+- **Architecture:** Conv2D ➟ MaxPooling ➟ Flatten ➟ Dense
+- **Input shape:** (100, 100, 3)
+- **Dataset:** UTKFace (real-world face images with age labels)
+- **Prediction Type:** Age Classification
+- **Output:** Class index + readable age range
+
+---
+
+## 🌎 Live Demo Screenshot
+![Age Detection Streamlit Screenshot](https://github.com/shwet369/age-detection-app/assets/demo-image.png)
 
 ---
 
 ## 📂 Project Structure
-
-age-detection-app/ ├── app.py # Streamlit application ├── model/ │ └── age_model.h5 # Trained CNN model ├── sample_images/ │ └── example1.jpg ├── requirements.txt # Python dependencies └── README.md # This file
-
-yaml
-Copy
-Edit
+```bash
+age-detection-app/
+├── app.py                  # Streamlit frontend
+├── model/
+│   └── age_model.h5         # Trained Keras model
+├── sample_images/
+│   └── example1.jpg         # Demo image
+├── requirements.txt        # Project dependencies
+└── README.md
+```
 
 ---
 
-## 🚀 How to Run
-'''bash
-
+## 🚀 Getting Started
 ### 1. Clone the Repository
-
-
-git clone https://github.com/your-username/age-detection-app.git
+```bash
+git clone https://github.com/shwet369/age-detection-app.git
 cd age-detection-app
-2. Install Requirements
-bash
-Copy
-Edit
+```
+
+### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
-3. Start the Streamlit App
-bash
-Copy
-Edit
+```
+
+### 3. Launch the App
+```bash
 streamlit run app.py
-🔍 Model Details
-Input Shape: (100, 100, 3)
+```
 
-Model Type: Convolutional Neural Network (CNN)
+---
 
-Dataset: UTKFace
+## 🧩 Age Classes Explained
+| Class | Age Range |
+|-------|------------|
+| 0     | 0 - 10     |
+| 1     | 11 - 20    |
+| 2     | 21 - 30    |
+| 3     | 31 - 40    |
+| 4     | 41 - 50    |
+| 5     | 51 - 60    |
+| 6     | 61 - 70    |
+| 7     | 70+        |
 
-Output: Age Class (0–10, 11–20, ..., 70+)
+> 🔗 The model maps a continuous age to a bucketed age range.
 
-Accuracy: ~87% on validation set
+---
 
-🧪 Sample Age Classes
-Class	Age Range
-0	0 - 10
-1	11 - 20
-2	21 - 30
-3	31 - 40
-4	41 - 50
-5	51 - 60
-6	61 - 70
-7	70+
-✅ Requirements
-nginx
-Copy
-Edit
+## ✅ Requirements
+```
 streamlit
 tensorflow
 numpy
 Pillow
-Install with:
+```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt '''
+Install via:
+```bash
+pip install -r requirements.txt
+```
 
-📌 Note
+---
 
+## 📁 Unique Highlights
+- 🌈 Real-time age classification via webcam or uploaded images
+- 📊 Age prediction confidence visualization (optional upgrade)
+- 🎨 Built for easy customization – plug in your own dataset or tweak architecture
+- 🔍 Easily adaptable to other facial attribute detection tasks (e.g., gender, emotion)
 
-## 📎 Resources & Downloads
-- **GitHub Repository:** [GitHub Link](https://github.com/shwet369/Fine-tune-model/tree/https/github.com/shwet369/-_Data-science)
+---
 
-## 📜 License
+## 📋 Resources & Downloads
+- **GitHub Repository:** [Age Detection Repo](https://github.com/shwet369/age-detection-app)
+- **UTKFace Dataset:** [UTKFace on Kaggle](https://www.kaggle.com/datasets)
+
+---
+
+## 📝 License
 This project is licensed under the **MIT License**.
+
+---
 
 ## 🔗 Contact
 - 📧 Email: [shwetabhoyar04@gmail.com](mailto:shwetabhoyar04@gmail.com)
-- 🔗 LinkedIn: [Shweta Bhoyar](https://www.linkedin.com/in/shweta-bhoyar-datascience/)
+- 👤 LinkedIn: [Shweta Bhoyar](https://www.linkedin.com/in/shweta-bhoyar-datascience/)
 - 💻 GitHub: [shwet369](https://github.com/shwet369)
 
 ---
-🔥 **Explore Deep Learning Beyond Accuracy!** 🎭🚀
-🙋‍♀️ About Me
-Developed with ❤️ by Shwet
-🔗 LinkedIn | 🌐 GitHub
 
+## 💥 Let the model guess your age – It might surprise you! 😎🌐
 
+Developed with ❤️ by **Shwet**
 
-
+---
