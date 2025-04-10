@@ -1,63 +1,104 @@
-# 🔍 CNN Activation Map Visualization for Emotion Detection
+# Age Detection App 🧠👶👴
 
-## 📌 Overview
-Understanding how a **Convolutional Neural Network (CNN)** makes decisions is crucial for improving model interpretability. This project visualizes **activation maps** to highlight **important facial regions** that contribute to emotion detection. Using **Grad-CAM and feature maps**, we gain insights into which parts of the image influence the model's predictions.
+A Deep Learning-based Age Prediction App using CNN and Streamlit.
 
-## 🎯 Objectives
-✔️ Visualize CNN activation maps for **emotion detection**  
-✔️ Identify key facial features used in classification  
-✔️ Use **Grad-CAM & feature extraction techniques**  
-✔️ Improve model interpretability  
+## 🚀 Features
+- Upload any human face image
+- Predicts the person’s **age** (classification or regression)
+- Simple UI built with Streamlit
+
+## 🧠 Model
+- Input shape: (100, 100, 3)
+- CNN Architecture (Conv2D + MaxPooling2D + Dense)
+- Trained on UTKFace dataset
+- Accuracy: ~87% on validation data
+
+## 📦 Dependencies
+
+Install with:
+
+bash
+pip install -r requirements.txt
+# 🧠 Age Detection Web App
+
+This project is a deep learning-based age detection app that predicts the **approximate age group** of a person based on an uploaded face image. Built with **TensorFlow**, **Keras**, and **Streamlit**, it provides a clean UI to test real images using a trained CNN model.
+
+---
+
+## 📸 Demo
+
+> Upload a face image, and the model will output a predicted age class and age range.
+
+![demo](sample_images/example1.jpg)
+
+---
 
 ## 📂 Project Structure
-```
-├── models/                 # Pre-trained emotion detection model
-├── notebooks/              # Jupyter Notebooks for visualization
-│   ├── visualize_activations.ipynb  # Activation map visualization script
-├── images/                 # Sample test images
-├── requirements.txt        # Required dependencies
-├── README.md               # Project documentation
-├── utils.py                # Helper functions for preprocessing
-└── results/                # Stored visualizations
-```
-![app - Google Chrome 10-04-2025 11_51_42](https://github.com/user-attachments/assets/be25d352-2c5e-4986-882d-2f3c0758d01f)
 
+age-detection-app/ ├── app.py # Streamlit application ├── model/ │ └── age_model.h5 # Trained CNN model ├── sample_images/ │ └── example1.jpg ├── requirements.txt # Python dependencies └── README.md # This file
 
-## 🚀 Getting Started
-### 1️⃣ Install Dependencies
-Ensure all necessary libraries are installed by running:
+yaml
+Copy
+Edit
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the Repository
+
 ```bash
+git clone https://github.com/your-username/age-detection-app.git
+cd age-detection-app
+2. Install Requirements
+bash
+Copy
+Edit
 pip install -r requirements.txt
-```
-### 2️⃣ Load the Pre-trained Model
-Make sure you have a **trained CNN model for emotion detection**. If not, train one or use an existing model. Place it in the `models/` directory.
+3. Start the Streamlit App
+bash
+Copy
+Edit
+streamlit run app.py
+🔍 Model Details
+Input Shape: (100, 100, 3)
 
-### 3️⃣ Run the Activation Map Visualization
-To generate activation maps, open and run the Jupyter notebook:
-```bash
-jupyter notebook notebooks/visualize_activations.ipynb
-```
-This will:
-- Load a sample image  
-- Extract activation maps from intermediate **convolutional layers**  
-- Overlay activation maps on the input image  
+Model Type: Convolutional Neural Network (CNN)
 
-### 4️⃣ Sample Visualization Output
-📷 **Input Image** → 🔥 **Highlighted Activation Regions**  
-- Grad-CAM heatmaps visualize **most influential regions**  
-- Feature maps show **layer-wise activations**  
+Dataset: UTKFace
 
-## 📊 Results & Insights
-- **Grad-CAM Highlights:** Identifies areas influencing emotion detection  
-- **Feature Maps:** Shows how different layers react to an image  
-- **Comparative Analysis:** Helps diagnose **biases or weaknesses** in the model  
+Output: Age Class (0–10, 11–20, ..., 70+)
 
-## 🛠 Tech Stack
-- **Python**
-- **TensorFlow/Keras**
-- **OpenCV, NumPy, Pandas**
-- **Matplotlib & Seaborn**
-- **Grad-CAM & Feature Extraction**
+Accuracy: ~87% on validation set
+
+🧪 Sample Age Classes
+Class	Age Range
+0	0 - 10
+1	11 - 20
+2	21 - 30
+3	31 - 40
+4	41 - 50
+5	51 - 60
+6	61 - 70
+7	70+
+✅ Requirements
+nginx
+Copy
+Edit
+streamlit
+tensorflow
+numpy
+Pillow
+Install with:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+
+📌 Note
+![app - Google Chrome 10-04-2025 11_51_42](https://github.com/user-attachments/assets/f6c71be8-aa88-4791-956e-38b491e13be0)
+
 
 ## 📎 Resources & Downloads
 - **GitHub Repository:** [GitHub Link](https://github.com/shwet369/Fine-tune-model/tree/https/github.com/shwet369/-_Data-science)
@@ -72,6 +113,10 @@ This project is licensed under the **MIT License**.
 
 ---
 🔥 **Explore Deep Learning Beyond Accuracy!** 🎭🚀
+🙋‍♀️ About Me
+Developed with ❤️ by Shwet
+🔗 LinkedIn | 🌐 GitHub
+
 
 
 
