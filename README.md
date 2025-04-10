@@ -29,7 +29,8 @@ This project is a deep learning-based age detection app that predicts the **appr
 
 > Upload a face image, and the model will output a predicted age class and age range.
 
-![demo](sample_images/example1.jpg)
+![demo](![app - Google Chrome 10-04-2025 11_51_42](https://github.com/user-attachments/assets/f6c71be8-aa88-4791-956e-38b491e13be0)
+)
 
 ---
 
@@ -97,7 +98,6 @@ Edit
 pip install -r requirements.txt
 
 📌 Note
-![app - Google Chrome 10-04-2025 11_51_42](https://github.com/user-attachments/assets/f6c71be8-aa88-4791-956e-38b491e13be0)
 
 
 ## 📎 Resources & Downloads
