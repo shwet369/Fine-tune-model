@@ -23,7 +23,8 @@ A Deep Learning-based Age Prediction App using CNN and Streamlit that classifies
 ---
 
 ## 🌎 Live Demo Screenshot
-![Age Detection Streamlit Screenshot](https://github.com/shwet369/age-detection-app/assets/demo-image.png)
+![Age Detection Streamlit Screenshot](![demo](![app - Google Chrome 10-04-2025 11_51_42](https://github.com/user-attachments/assets/f6c71be8-aa88-4791-956e-38b491e13be0)
+))
 
 ---
 
