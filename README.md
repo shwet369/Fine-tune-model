@@ -60,7 +60,7 @@ This will:
 ## 📎 Resources & Downloads
 - **Pre-trained Model:** [Google Drive Link](#)
 - **Sample Results:** [Results Folder](#)
-- **GitHub Repository:** [GitHub Link](#)
+- **GitHub Repository:** [GitHub Link](#https://github.com/shwet369/Fine-tune-model/edit/)
 
 ## 📜 License
 This project is licensed under the **MIT License**.
