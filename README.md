@@ -20,7 +20,8 @@ Understanding how a **Convolutional Neural Network (CNN)** makes decisions is cr
 ├── utils.py                # Helper functions for preprocessing
 └── results/                # Stored visualizations
 ```
-![app - Google Chrome 10-04-2025 11_51_42](https://github.com/user-attachments/assets/5ac2ae3d-7428-4327-8050-2a6cb68c1a3b)
+![app - Google Chrome 10-04-2025 11_51_42](https://github.com/user-attachments/assets/be25d352-2c5e-4986-882d-2f3c0758d01f)
+
 
 ## 🚀 Getting Started
 ### 1️⃣ Install Dependencies
